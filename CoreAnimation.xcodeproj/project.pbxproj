@@ -13,6 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		AF83D1DB19231C58009D9F07 /* RJStrokeEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF83D1D319231C58009D9F07 /* RJStrokeEndViewController.m */; };
+		AF83D1DC19231C58009D9F07 /* RJTimeControlCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF83D1D519231C58009D9F07 /* RJTimeControlCAViewController.m */; };
+		AF83D1DD19231C58009D9F07 /* RJTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF83D1D619231C58009D9F07 /* RJTransitionViewController.m */; };
+		AF83D1DE19231C58009D9F07 /* RJPathCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF83D1D819231C58009D9F07 /* RJPathCAViewController.m */; };
 		C4219A4C1325C70900FB5EA0 /* ReflectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4219A4B1325C70900FB5EA0 /* ReflectionViewController.m */; };
 		C4219BE71325D98000FB5EA0 /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4219BE61325D98000FB5EA0 /* FlipViewController.m */; };
 		C423AA4C1325414100B2A34D /* StickyNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C423AA4B1325414100B2A34D /* StickyNotesViewController.m */; };
@@ -74,6 +78,14 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoreAnimation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CoreAnimation-Info.plist"; path = "../CoreAnimation-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF83D1D319231C58009D9F07 /* RJStrokeEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStrokeEndViewController.m; sourceTree = "<group>"; };
+		AF83D1D419231C58009D9F07 /* RJStrokeEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJStrokeEndViewController.h; sourceTree = "<group>"; };
+		AF83D1D519231C58009D9F07 /* RJTimeControlCAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTimeControlCAViewController.m; sourceTree = "<group>"; };
+		AF83D1D619231C58009D9F07 /* RJTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTransitionViewController.m; sourceTree = "<group>"; };
+		AF83D1D719231C58009D9F07 /* RJTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJTransitionViewController.h; sourceTree = "<group>"; };
+		AF83D1D819231C58009D9F07 /* RJPathCAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJPathCAViewController.m; sourceTree = "<group>"; };
+		AF83D1D919231C58009D9F07 /* RJTimeControlCAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJTimeControlCAViewController.h; sourceTree = "<group>"; };
+		AF83D1DA19231C58009D9F07 /* RJPathCAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJPathCAViewController.h; sourceTree = "<group>"; };
 		C4219A4A1325C70900FB5EA0 /* ReflectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionViewController.h; sourceTree = "<group>"; };
 		C4219A4B1325C70900FB5EA0 /* ReflectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionViewController.m; sourceTree = "<group>"; };
 		C4219BE51325D98000FB5EA0 /* FlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
@@ -235,6 +247,14 @@
 				C456E7DB1328A45700E7E245 /* SublayerTransformViewController.m */,
 				C436495D1323954E00107F88 /* TachometerViewController.h */,
 				C436495E1323954E00107F88 /* TachometerViewController.m */,
+				AF83D1D419231C58009D9F07 /* RJStrokeEndViewController.h */,
+				AF83D1D319231C58009D9F07 /* RJStrokeEndViewController.m */,
+				AF83D1D919231C58009D9F07 /* RJTimeControlCAViewController.h */,
+				AF83D1D519231C58009D9F07 /* RJTimeControlCAViewController.m */,
+				AF83D1D719231C58009D9F07 /* RJTransitionViewController.h */,
+				AF83D1D619231C58009D9F07 /* RJTransitionViewController.m */,
+				AF83D1D819231C58009D9F07 /* RJPathCAViewController.m */,
+				AF83D1DA19231C58009D9F07 /* RJPathCAViewController.h */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -416,9 +436,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				AF83D1DC19231C58009D9F07 /* RJTimeControlCAViewController.m in Sources */,
 				1D3623260D0F684500981E51 /* CoreAnimationAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				C43648F71323902200107F88 /* ImplicitAnimationsViewController.m in Sources */,
+				AF83D1DE19231C58009D9F07 /* RJPathCAViewController.m in Sources */,
 				C436495F1323954E00107F88 /* BatmanViewController.m in Sources */,
 				C43649601323954E00107F88 /* PacmanViewController.m in Sources */,
 				C43649611323954E00107F88 /* TachometerViewController.m in Sources */,
@@ -433,6 +455,8 @@
 				C4C6B05813274C8E005AB613 /* MakeItStickViewController.m in Sources */,
 				C456E7DC1328A45700E7E245 /* SublayerTransformViewController.m in Sources */,
 				C488894C132C07030097A44E /* CALayer+Additions.m in Sources */,
+				AF83D1DB19231C58009D9F07 /* RJStrokeEndViewController.m in Sources */,
+				AF83D1DD19231C58009D9F07 /* RJTransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

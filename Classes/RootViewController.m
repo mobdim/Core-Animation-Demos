@@ -37,6 +37,10 @@
 #import "PulseViewController.h"
 #import "MakeItStickViewController.h"
 #import "SublayerTransformViewController.h"
+#import "RJStrokeEndViewController.h"
+#import "RJPathCAViewController.h"
+#import "RJTimeControlCAViewController.h"
+#import "RJTransitionViewController.h"
 
 @interface UIViewController ()
 + (NSString *)displayName;
@@ -67,7 +71,11 @@
 	[layersList addObject:[NSAViewController class]];
 	[layersList addObject:[ReflectionViewController class]];
 	[layersList addObject:[PulseViewController class]];
-
+    [layersList addObject:[RJStrokeEndViewController class]];
+    [layersList addObject:[RJTimeControlCAViewController class]];
+    [layersList addObject:[RJTransitionViewController class]];
+    [layersList addObject:[RJPathCAViewController class]];
+    
 	NSDictionary *layers = @{@"Core Animation": layersList};
 	[self.items addObject:layers];
 	
